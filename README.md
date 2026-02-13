@@ -1,4 +1,4 @@
-# Anime Recommendations
+# Anime recommendations
 
 This repository demonstrates set-up and deployment of a simple Streamlit web application with a content-based filtering recommendation system that suggests similar anime titles based on genre similarity using the Jaccard distance metric.
 
@@ -14,7 +14,7 @@ This project implements a simple yet effective anime recommendation engine that:
 
 The dataset includes over 12,000 anime titles with information about genres, ratings, and popularity metrics.
 
-## Try It in GitHub Codespaces
+## Try it in GitHub Codespaces
 
 The easiest way to try running this app yourself is using GitHub Codespaces, which provides a fully configured development environment in your browser:
 
@@ -28,14 +28,14 @@ The easiest way to try running this app yourself is using GitHub Codespaces, whi
 
 The Codespace includes Python 3.12, all required packages, and VS Code extensions pre-configured.
 
-## Fork, Clone & Run Locally
+## Fork, clone & run locally
 
 ### Prerequisites
 - Python 3.10 or higher
 - pip package manager
 - Git
 
-### Setup Instructions
+### Setup instructions
 
 1. **Fork the repository** on GitHub (click the Fork button)
 
@@ -63,7 +63,7 @@ The Codespace includes Python 3.12, all required packages, and VS Code extension
 
 6. **Open your browser** to `http://localhost:8501`
 
-### Explore the Notebook
+### Explore the notebook
 
 To explore the data analysis and recommendation algorithm, see `notebooks/content_based_filtering.ipynb`.
 
@@ -71,15 +71,15 @@ To explore the data analysis and recommendation algorithm, see `notebooks/conten
 
 Deploy your own instance of this app to Render.com for free:
 
-### Step 1: Prepare Your Repository
+### Step 1: Prepare your repository
 
 1. **Fork this repository** to your GitHub account if you haven't already
 
-### Step 2: Deploy on Render
+### Step 2: Deploy on render
 
 1. **Sign up** for a free account at [render.com](https://render.com)
 
-2. **Create a new Web Service**:
+2. **Create a new web service**:
    - Click **New +** → **Web Service**
    - Connect your GitHub account if not already connected
    - Select your forked `anime-recommendations` repository
@@ -94,7 +94,7 @@ Deploy your own instance of this app to Render.com for free:
    - **Instance Type**: `Free` (sufficient for this app)
    - **Auto-Deploy**: Enable to automatically deploy on git push to your fork
 
-5. **Click "Create Web Service"**
+5. **Click "Create web service"**
 
 6. **Wait for deployment** - Render will:
    - Clone your repository
@@ -102,13 +102,13 @@ Deploy your own instance of this app to Render.com for free:
    - Start the Streamlit app
    - Provide you with a public URL (e.g., `https://my-anime-recommendations.onrender.com`)
 
-### Deployment Notes
+### Deployment notes
 
 - **First load delay**: Free tier instances spin down after inactivity. The first request may take 30-60 seconds to wake up.
 - **Custom domain**: You can add a custom domain in Render's settings.
 - **Updates**: Push to your GitHub repo to trigger automatic redeployment (if auto-deploy is enabled).
 
-## Project Structure
+## Project structure
 
 ```
 anime-recommendations/
@@ -125,7 +125,7 @@ anime-recommendations/
 └── README.md
 ```
 
-## Technology Stack
+## Technology stack
 
 - **Python 3.12** - Programming language
 - **Pandas** - Data manipulation and analysis
